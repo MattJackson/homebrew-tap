@@ -1,9 +1,9 @@
 class ClaudeUsage < Formula
   desc "Usage across multiple Claude Max accounts, instant switch, and auto-swap before the limit"
   homepage "https://github.com/MattJackson/claude-usage"
-  url "https://github.com/MattJackson/claude-usage/releases/download/v0.1.1/claude-usage-v0.1.1-universal-apple-darwin.tar.gz"
-  sha256 "dcf5e251fe61ade95525e04eba02e449860ffa6f10b0b86f33134918bdcde2ee"
-  version "0.1.1"
+  url "https://github.com/MattJackson/claude-usage/releases/download/v0.1.2/claude-usage-v0.1.2-universal-apple-darwin.tar.gz"
+  sha256 "4b0da60109a41cbfc4e61273946d08ef315058a9e166579587e5271291fce2b0"
+  version "0.1.2"
   license "MIT"
 
   depends_on :macos
