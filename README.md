@@ -1,5 +1,7 @@
 # homebrew-tap
 
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?logo=github-sponsors)](https://github.com/sponsors/MattJackson)
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Homebrew tap for [@MattJackson](https://github.com/MattJackson)'s tools. Formulae
