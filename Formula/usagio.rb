@@ -9,7 +9,7 @@ class Usagio < Formula
   # Transparently migrate users installed as `claude-usage` to `usagio` on next
   # `brew upgrade`. See `Formula/claude-usage.rb` for the parallel deprecated
   # entry that keeps `brew install claude-usage` working for now.
-  oldname "claude-usage"
+  oldnames "claude-usage"
 
   depends_on :macos
 
