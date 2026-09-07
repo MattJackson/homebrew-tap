@@ -6,11 +6,9 @@ class Usagio < Formula
   sha256 "d3e0d082f259960e29e591865a67a453991fce43e715ffe0654712ad046308f0"
   license "MIT"
 
-  # Transparently migrate users installed as `claude-usage` to `usagio` on next
-  # `brew upgrade`. See `Formula/claude-usage.rb` for the parallel deprecated
-  # entry that keeps `brew install claude-usage` working for now.
-  oldnames "claude-usage"
-
+  # Migration of prior `claude-usage` installs is handled by
+  # `tap_migrations.json` at the tap root, which Homebrew 4+ prefers over
+  # in-formula `oldname`/`oldnames` DSL (removed in Homebrew 6.x).
   depends_on :macos
 
   def install
