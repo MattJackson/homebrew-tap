@@ -25,11 +25,12 @@ brew install MattJackson/tap/<formula>
 | Formula | Description | Platforms | Project |
 | --- | --- | --- | --- |
 | `fwext` | Generic firmware extractor: any vendor download in → raw firmware `.bin` + JSON label out | macOS (arm64/Intel), Linux | [firmware-extractor](https://github.com/MattJackson/firmware-extractor) |
-| `claude-usage` | Claude Max usage across accounts from the menu bar, with instant switch and auto-swap | macOS | [claude-usage](https://github.com/MattJackson/claude-usage) |
+| `usagio` | Every AI coding CLI's usage from the menu bar, instant switch, auto-swap (renamed from `claude-usage`) | macOS | [usagio](https://github.com/MattJackson/usagio) |
+| `claude-usage` (deprecated) | Deprecated alias — installs `usagio` transitively | macOS | [usagio](https://github.com/MattJackson/usagio) |
 
 ```sh
 brew install MattJackson/tap/fwext
-brew install MattJackson/tap/claude-usage
+brew install MattJackson/tap/usagio
 ```
 
 Upgrades come through Homebrew: `brew upgrade <formula>`.
