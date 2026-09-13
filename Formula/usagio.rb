@@ -16,19 +16,20 @@ class Usagio < Formula
     prefix.install "usagio.app"
   end
 
-  def post_install
-    system bin/"usagio", "install"
-  end
-
   test do
     assert_match "usagio", shell_output("#{bin}/usagio --help")
   end
   def caveats
     <<~EOS
-      usagio install ran automatically as part of this install/upgrade --
-      it registers the menu bar app + auto-swap daemon to run now and at
-      every login, and (for the app icon in Login Items) points launchd at
-      usagio.app/Contents/MacOS/usagio.
+      To start the menu bar app + auto-swap daemon (now and at every login),
+      run once from your shell:
+
+        usagio install
+
+      It registers the menu bar + daemon under your account and (for the app
+      icon in Login Items) points launchd at
+      usagio.app/Contents/MacOS/usagio. `brew install` no longer does this
+      automatically (Homebrew forbids formulae from writing to your home).
 
       Run `usagio uninstall` to stop the menu bar and remove autostart.
     EOS
