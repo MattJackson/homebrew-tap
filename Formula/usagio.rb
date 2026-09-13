@@ -16,8 +16,8 @@ class Usagio < Formula
     prefix.install "usagio.app"
   end
 
-  def post_install
-    system bin/"usagio", "install"
+  post_install_steps do
+    run "usagio", "install"
   end
 
   test do
