@@ -1,9 +1,9 @@
 class Usagio < Formula
   desc "AI coding CLI usage from the menu bar, instant switch, auto-swap"
   homepage "https://usagio.dev"
-  url "https://github.com/MattJackson/usagio/releases/download/v0.12.1/usagio-v0.12.1-universal-apple-darwin.tar.gz"
-  version "0.12.1"
-  sha256 "627bb3eb8c92120eac7e73447c5f7eb49f04592a0f7fa72ed56da30ae40a65f5"
+  url "https://github.com/MattJackson/usagio/releases/download/v0.12.2/usagio-v0.12.2-universal-apple-darwin.tar.gz"
+  version "0.12.2"
+  sha256 "6298b8461aa1a8e2686485b5725b87fd3d097d3b014044b8e0ea82ed0a9fd370"
   license "MIT"
 
   # Migration of prior `claude-usage` installs is handled by
